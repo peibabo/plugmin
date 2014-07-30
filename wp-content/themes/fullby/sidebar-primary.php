@@ -3,6 +3,7 @@
 		<a href=""><i class="fa fa-facebook fa-2x"></i></a>
 		<a href=""><i class="fa fa-twitter fa-2x"></i></a>
 		<a href=""><i class="fa fa-google-plus fa-2x"></i></a>
+		<a href="<?=site_url()."/feed/"?>" target="_blank"><i class="fa fa-rss fa-2x"></i></a>
 <!-- 		<a href=""><i class="fa fa-pinterest fa-2x"></i></a> -->
 <!-- 		<a href=""><i class="fa fa-instagram fa-2x"></i></a> -->
 <!-- 		<a href=""><i class="fa fa-linkedin fa-2x"></i></a> -->
@@ -39,7 +40,7 @@
 
 					<?php
 
-					 } else if ( has_post_thumbnail() ) { ?>
+					} else if ( has_post_thumbnail() ) { ?>
 
 						<?php the_post_thumbnail('thumbnail', array('class' => 'thumbnail')); ?>
 
@@ -54,15 +55,15 @@
 
 						if($video != '') { ?>
 
-							 <i class="fa fa-video-camera"></i> Video
+							<i class="fa fa-video-camera"></i> Video
 
-						 <?php } else if (strpos($post->post_content,'[gallery') !== false) { ?>
+						<?php } else if (strpos($post->post_content,'[gallery') !== false) { ?>
 
-							 <i class="fa fa-th"></i> Gallery
+							<i class="fa fa-th"></i> Gallery
 
-						 <?php } else {?>
+						<?php } else {?>
 
-						 <?php } ?>
+						<?php } ?>
 
 					</div>
 
@@ -88,7 +89,7 @@
 
 						<?php
 
-						 } else if ( has_post_thumbnail() ) { ?>
+						} else if ( has_post_thumbnail() ) { ?>
 
 							<?php the_post_thumbnail('thumbnail', array('class' => 'thumbnail')); ?>
 
@@ -103,15 +104,15 @@
 
 							if($video != '') { ?>
 
-								 <i class="fa fa-video-camera"></i> Video
+								<i class="fa fa-video-camera"></i> Video
 
-							 <?php } else if (strpos($post->post_content,'[gallery') !== false) { ?>
+							<?php } else if (strpos($post->post_content,'[gallery') !== false) { ?>
 
-								 <i class="fa fa-th"></i> Gallery
+								<i class="fa fa-th"></i> Gallery
 
-							 <?php } else {?>
+							<?php } else {?>
 
-							 <?php } ?>
+							<?php } ?>
 
 						</div>
 

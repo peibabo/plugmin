@@ -41,7 +41,7 @@
 
 	<div class="navbar navbar-inverse navbar-fixed-top">
 
-		<div class="navbar-header">
+		<div id="main-nav" class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu">
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
@@ -67,7 +67,8 @@
 
 	<?php if (is_home()) { ?>
 
-		<?php if (!is_paged()){ ?>
+		<!--  一旦ここはfalseにして表示させない -->
+		<?php if (!is_paged()&&false){ ?>
 
 			<div class="row featured">
 
@@ -149,25 +150,24 @@
 
 	<div class="navbar navbar-inverse navbar-sub">
 
-<!-- 		<div class="navbar-header"> -->
-<!-- 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#submenu"> -->
-<!-- 			<span class="icon-bar"></span> -->
-<!-- 			<span class="icon-bar"></span> -->
-<!-- 			<span class="icon-bar"></span> -->
-<!-- 		</button> -->
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#submenu">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		</div>
 
-<!-- 		</div> -->
-
-		<div  id="submenu" >
+		<div  id="submenu"  class="collapse navbar-collapse">
 		<?php /* Secondary navigation */
-// 			wp_nav_menu( array(
-// 			'menu' => 'sub',
-// 			'depth' => 2,
-// 			'container' => false,
-// 			'menu_class' => 'nav navbar-nav',
-// 			//Process nav menu using our custom nav walker
-// 			'walker' => new wp_bootstrap_navwalker())
-// 			);
+			wp_nav_menu( array(
+			'menu' => 'sub',
+			'depth' => 2,
+			'container' => false,
+			'menu_class' => 'nav navbar-nav',
+			//Process nav menu using our custom nav walker
+			'walker' => new wp_bootstrap_navwalker())
+			);
 			?>
 
 			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 pull-right search-cont">
