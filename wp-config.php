@@ -4,7 +4,7 @@
  * WordPress の基本設定
  *
  * このファイルは、MySQL、テーブル接頭辞、秘密鍵、言語、ABSPATH の設定を含みます。
- * より詳しい情報は {@link http://wpdocs.sourceforge.jp/wp-config.php_%E3%81%AE%E7%B7%A8%E9%9B%86 
+ * より詳しい情報は {@link http://wpdocs.sourceforge.jp/wp-config.php_%E3%81%AE%E7%B7%A8%E9%9B%86
  * wp-config.php の編集} を参照してください。MySQL の設定情報はホスティング先より入手できます。
  *
  * このファイルはインストール時に wp-config.php 作成ウィザードが利用します。
@@ -14,7 +14,7 @@
  * @package WordPress
  */
 
-// 注意: 
+// 注意:
 // Windows の "メモ帳" でこのファイルを編集しないでください !
 // 問題なく使えるテキストエディタ
 // (http://wpdocs.sourceforge.jp/Codex:%E8%AB%87%E8%A9%B1%E5%AE%A4 参照)

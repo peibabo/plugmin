@@ -38,7 +38,7 @@
 
 					<p class="meta">
 
-						<i class="fa fa-clock-o"></i> <?php the_time('j M , Y') ?>  &nbsp;
+						<i class="fa fa-clock-o"></i> <?php the_time('Y.m.d') ?>  &nbsp;
 
 						<?php
 						$video = get_post_meta($post->ID, 'fullby_video', true );
@@ -76,7 +76,7 @@
 						<div class="pagelink">
 							<div class="snsshare">
 								<a id="share_fb" href="http://www.facebook.com/sharer.php?src=bm&u=<?php echo get_permalink(); ?>&amp;t=<?php the_title(); ?>" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">Facebookでシェア</a>
-								<a id="share_tw" href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fdout.jp%2F1308&amp;text=皮肉混じりに描かれた、デザイナのキャリアアップに必要なスキル。 dropout - 刺さる動画メディア %40dout_jp" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">Twitterでシェア</a>
+								<a id="share_tw" href="http://twitter.com/intent/tweet?url=<?php echo get_permalink(); ?>&amp;text=<?php the_title(); ?> | <?php bloginfo('name') ; ?>" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">Twitterでシェア</a>
 							</div>
 							このプラグイン良いかも！と思ったらシェア！
 						</div>

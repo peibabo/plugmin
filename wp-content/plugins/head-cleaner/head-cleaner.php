@@ -161,6 +161,7 @@ class HeadCleaner extends wokController {
 	* Constructor
 	***********************************************************/
 	function __construct($uninstall = false) {
+
 		$this->init(__FILE__);
 		$this->options = $this->_init_options($this->getOptions());
 		$this->filters = $this->options['filters'];
@@ -769,7 +770,7 @@ class HeadCleaner extends wokController {
 		if (!$this->_is_user_logged_in() && $this->options['paranoia_mode']) {
 			$ret_val = $this->html_cleaner($ret_val);
 		}
-		
+
 		if ( $doctype !== 'xhtml' )
 			$ret_val = preg_replace('# */>#', '>', $ret_val);
 
@@ -954,7 +955,7 @@ class HeadCleaner extends wokController {
 		unset($wk_inline_css);
 		unset($element);
 
-		$css_tag = 
+		$css_tag =
 			$this->_tag_trim($css_tag) .
 			$this->_tag_trim($inner_css) .
 			$this->_tag_trim($css_tag_with_id) .
@@ -1582,7 +1583,7 @@ class HeadCleaner extends wokController {
 		$cache_filename = $this->_cache_filename($filename, $type);
 
 		if (!file_exists($cache_filename)) {
-			$src = 
+			$src =
 				$type !== false && preg_match('/\.'.preg_quote($type, '/').'[\?]*[^\?]*$/i', $filename)
 				? trim(preg_replace('/(\.'.preg_quote($type, '/').')([\?]*[^\?]*)$/i', '$1', str_replace($this->wp_url, ABSPATH, $filename)))
 				: $filename
@@ -2311,7 +2312,7 @@ jQuery(function($){
 			$flag = is_bool($this->options[$id]) ? $this->options[$id] : false;
 		return sprintf(
 			'<input type="checkbox" name="%1$s" id="%1$s" value="on" %2$s %3$s/>' ,
-			$id, 
+			$id,
 			( !empty($style) ? 'style="'.$style.'"' : '' ) ,
 			( $flag ? 'checked="true" ' : '' )
 			);
@@ -2322,7 +2323,7 @@ jQuery(function($){
 			$value = is_string($this->options[$id]) ? $this->options[$id] : '';
 		return sprintf(
 			'<input type="text" name="%1$s" id="%1$s" %2$s value="%3$s" />' ,
-			$id, 
+			$id,
 			( !empty($style) ? "style=\"{$style}\"" : '' ) ,
 			$value
 			);

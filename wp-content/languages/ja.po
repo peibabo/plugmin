@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-04-16 01:51:08+0000\n"
+"PO-Revision-Date: 2014-06-26 06:14:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +22,7 @@ msgstr "(WordPress は WordPress.org との安全な接続を確立できませ�
 
 #: wp-includes/class-wp-customize-widgets.php:1043
 msgid "Shift-click to edit this widget."
-msgstr "Shit + クリックでこのウィジェットを編集。"
+msgstr "Shift + クリックでこのウィジェットを編集。"
 
 #: wp-includes/class-wp-editor.php:772
 msgctxt "HTML tag"
@@ -248,7 +248,7 @@ msgstr "範囲"
 #: wp-includes/class-wp-editor.php:896
 msgctxt "table column"
 msgid "Column"
-msgstr "行"
+msgstr "列"
 
 #: wp-includes/class-wp-editor.php:767
 msgctxt "TinyMCE"
@@ -402,7 +402,7 @@ msgstr "無視"
 #: wp-includes/class-wp-editor.php:897
 msgctxt "table columns"
 msgid "Cols"
-msgstr "行"
+msgstr "列"
 
 #: wp-includes/class-wp-editor.php:898
 msgctxt "table cell"
@@ -725,7 +725,7 @@ msgstr "指定された文字列が見つかりませんでした。"
 
 #: wp-includes/class-wp-editor.php:927
 msgid "Column group"
-msgstr "行グループ"
+msgstr "列グループ"
 
 #: wp-includes/class-wp-editor.php:960
 msgid "Toolbar Toggle"
@@ -937,7 +937,7 @@ msgstr "大文字小文字を区別する"
 
 #: wp-includes/class-wp-editor.php:895
 msgid "Rows"
-msgstr "列"
+msgstr "行"
 
 #: wp-includes/class-wp-editor.php:930
 msgid "Cell padding"
@@ -949,7 +949,7 @@ msgstr "セルのスペース"
 
 #: wp-includes/class-wp-editor.php:928
 msgid "Row type"
-msgstr "列の種類"
+msgstr "行の種類"
 
 #: wp-includes/class-wp-editor.php:888
 msgid "Insert table"
@@ -965,11 +965,11 @@ msgstr "セルの種類"
 
 #: wp-includes/class-wp-editor.php:926
 msgid "Row group"
-msgstr "列グループ"
+msgstr "行グループ"
 
 #: wp-includes/class-wp-editor.php:911
 msgid "Delete column"
-msgstr "行を削除"
+msgstr "列を削除"
 
 #: wp-includes/class-wp-editor.php:937
 msgid "Background color"
@@ -4393,7 +4393,7 @@ msgstr "%1$s の使用はバージョン %2$s から<strong>非推奨</strong>�
 
 #: wp-includes/functions.php:3193
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
-msgstr "%1$s の使用はバージョン %2$s から<strong>非推奨</strong>になりました ! 代わりに %3$s を使ってください。"
+msgstr "%1$s の使用はバージョン %2$s から<strong>非推奨</strong>になりました ! %3$s"
 
 #: wp-includes/functions.php:3195
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."

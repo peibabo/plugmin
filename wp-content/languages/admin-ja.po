@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-04-17 00:08:53+0000\n"
+"PO-Revision-Date: 2014-07-13 01:56:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -891,11 +891,11 @@ msgstr "翻訳はすべて最新版です。"
 
 #: wp-admin/update-core.php:347
 msgid "Some of your translations are out of date."
-msgstr "いくつかの翻訳は古いものです。"
+msgstr "一部の翻訳が古くなっています。"
 
 #: wp-admin/includes/class-wp-upgrader.php:1192
 msgid "Some of your translations need updating. Sit tight for a few more seconds while we update them as well."
-msgstr "いくつかの翻訳の更新が必要です。更新が終わるまでしばらくお持ちください。"
+msgstr "更新が必要な翻訳が一部あります。更新が終わるまでしばらくお持ちください。"
 
 #: wp-admin/includes/class-wp-upgrader.php:1193
 msgid "The translation is up to date."
@@ -1821,7 +1821,7 @@ msgstr "ファイルの URL:"
 
 #: wp-admin/edit-comments.php:127
 msgid "In the <strong>In Response To</strong> column, there are three elements. The text is the name of the post that inspired the comment, and links to the post editor for that entry. The View Post link leads to that post on your live site. The small bubble with the number in it shows the number of approved comments that post has received. If the bubble is gray, you have moderated all comments for that post. If it is blue, there are pending comments. Clicking the bubble will filter the comments screen to show only comments on that post."
-msgstr "<strong>返信元</strong>カラムには、3つの要素があります。テキストはコメントの元となった投稿のタイトルとその投稿の編集画面へのリンクです。「投稿を表示」リンクをクリックすると、サイト上のその投稿に移動します。数字が書かれている小さな吹き出しは、承認済みのコメント数を表します。吹き出しがグレーになっている場合はすべてのコメントが承認済み、青になっている場合は承認が必要なコメントがあることを意味しています。吹き出しをクリックすると、その投稿のみについたコメントを表示する画面へ移動します。"
+msgstr "<strong>コメント先</strong>の欄には、3つの要素があります。テキストはコメントの元となった投稿のタイトルとその投稿の編集画面へのリンクです。「投稿を表示」リンクをクリックすると、サイト上のその投稿に移動します。数字が書かれている小さな吹き出しは、承認済みのコメント数を表します。吹き出しがグレーになっている場合はすべてのコメントが承認済み、青になっている場合は承認が必要なコメントがあることを意味しています。吹き出しをクリックすると、その投稿のみについたコメントを表示する画面へ移動します。"
 
 #: wp-admin/includes/ms.php:391
 msgid "Used: %1$s%% of %2$s"
@@ -3264,7 +3264,7 @@ msgstr "必要なインポートツールが表示されていない場合は、
 
 #: wp-admin/edit.php:194
 msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the x next to its name in the Bulk Edit area that appears."
-msgstr "「一括操作」を使うと、選択した投稿すべてのメタ情報 (カテゴリーや投稿者など) を変更できます。選択したグループから投稿を除くには、「一括操作」エリアに表示される、投稿タイトル横の x マークをクリックしてください。"
+msgstr "「一括操作」を使うと、選択した投稿すべてのメタ情報 (カテゴリーや投稿者など) を変更できます。選択したグループから投稿を除くには、「一括操作」エリアに表示されるタイトル横の x マークをクリックしてください。"
 
 #: wp-admin/edit.php:179 wp-admin/upload.php:157
 msgid "Available Actions"
@@ -4635,7 +4635,7 @@ msgstr "<a href=\"http://wpdocs.sourceforge.jp/Keyboard_Shortcuts\" target=\"_bl
 #: wp-admin/includes/class-wp-comments-list-table.php:299
 msgctxt "column name"
 msgid "In Response To"
-msgstr "返信元"
+msgstr "コメント先"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:399
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
@@ -7555,7 +7555,7 @@ msgstr "この更新を元に戻す"
 
 #: wp-admin/update-core.php:98
 msgid "This localized version contains both the translation and various other localization fixes. You can skip upgrading if you want to keep your current translation."
-msgstr "このローカライズ版には翻訳ファイルといくつかのローカライズ用の修正が含まれています。現在使用中の翻訳をそのまま使用したい場合は、アップグレードをスキップしてもかまいません。"
+msgstr "このローカライズ版には翻訳ファイルとさまざまなローカライズ用の修正が含まれています。現在使用中の翻訳をそのまま使用したい場合はアップグレードをスキップしてもかまいません。"
 
 #: wp-admin/update-core.php:111 wp-admin/update-core.php:123
 msgid "Show hidden updates"
