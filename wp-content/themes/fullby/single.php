@@ -76,7 +76,7 @@
 						<div class="pagelink">
 							<div class="snsshare">
 								<a id="share_fb" href="http://www.facebook.com/sharer.php?src=bm&u=<?php echo get_permalink(); ?>&amp;t=<?php the_title(); ?>" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">Facebookでシェア</a>
-								<a id="share_tw" href="http://twitter.com/intent/tweet?url=<?php echo get_permalink(); ?>&amp;text=<?php the_title(); ?> | <?php bloginfo('name') ; ?>" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">Twitterでシェア</a>
+								<a id="share_tw" href="http://twitter.com/intent/tweet?url=<?php echo get_permalink(); ?>&amp;text=<?php the_title();?> - <?php bloginfo('name')?>" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">Twitterでシェア</a>
 							</div>
 							このプラグイン良いかも！と思ったらシェア！
 						</div>
