@@ -47,7 +47,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-		<h1><a class="navbar-brand" href="<?php echo home_url(); ?>"><i class="fa fa-share-alt"></i><i class="fa fa-share-alt arrow"></i> <?php bloginfo('name'); ?></a></h1>
+		<h1 id="logo"><a class="navbar-brand" href="<?php echo home_url(); ?>"><span><?php bloginfo('name'); ?> | <?php bloginfo('description'); ?></span></a></h1>
 		</div>
 
 		<div id="mainmenu" class="collapse navbar-collapse">
@@ -86,7 +86,7 @@
 
 								<div class="caption">
 									<div class="cat"><span><?php $category = get_the_category(); echo $category[0]->cat_name; ?></span></div>
-									<div class="date"><i class="fa fa-clock-o"></i> <?php the_time('j M , Y') ?> &nbsp;
+									<div class="date"><i class="fa fa-clock-o"></i> <?php the_time('Y.m.d') ?> &nbsp;
 
 										<?php
 										$video = get_post_meta($post->ID, 'fullby_video', true );

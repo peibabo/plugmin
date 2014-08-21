@@ -281,9 +281,40 @@ a:focus, a:hover{color:#02A6DA;}
 
 a.thumbnail-img:hover {opacity:0.6;}
 
-.sing-cont .pagelink {font-weight: bold;}
+.sing-cont .pagelink {font-weight: bold;margin-top:50px;border: 2px solid #ccc;}
+.sing-cont .pagelink p {text-align:center;color:#888;}
 .sing-cont .snsshare {width: 100%;height: 50px;margin-bottom: 15px;}
 .sing-cont .snsshare a#share_fb {background-color: #3b5998;border-bottom-color: #314a7f;}
 .sing-cont .snsshare a#share_tw {background-color: #00acee;border-bottom-color: #007fb2;}
 .sing-cont .snsshare a {width: 50%;height: 50px;padding: 12px 0;float: left;font-size: 18px;font-weight: lighter;color: #ffffff;text-align: center;letter-spacing: 0.1em;display: inline-block;font-family: 'Avenir','Helvetica neue';-webkit-font-smoothing: antialiased;-webkit-transition: 0.2s ease-in-out;-moz-transition: 0.2s ease-in-out;-ms-transition: 0.2s ease-in-out;-o-transition: 0.2s ease-in-out;transition: 0.2s ease-in-out;}
 .snsshare a:hover {opacity: 0.7;text-decoration: none;}
+
+/* リンクボタン */
+.linkbtn {font-size:85%;display: inline-block;width: 170px;height: 40px;text-align: center;text-decoration: none;outline: none;line-height: 40px;position: relative;z-index: 2;line-height: 36px;}
+.linkbtn:hover {background-color: #fff;border-color: #59b1eb;color: #59b1eb;}
+.linkbtn::before,.linkbtn::after {top: 0;width: 50%;height: 100%;background-color: #333;}
+.linkbtn::before {right: 0;}
+.linkbtn::after {left: 0;}
+.linkbtn:hover::before,.linkbtn:hover::after {width: 0;background-color: #59b1eb;}
+.linkbtn::before,.linkbtn::after {position: absolute;z-index: -1;display: block;content: '';}
+.linkbtn,.linkbtn::before,.linkbtn::after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-webkit-transition: all .3s;transition: all .3s;}
+
+.linkbtn-blue {background-color: #02A6DA;border: 2px solid #02A6DA;color: #fff;}
+.linkbtn-blue::before,.linkbtn-blue::after {top: 0;width: 50%;height: 100%;background-color: #02A6DA;}
+.linkbtn-blue:hover {background-color: #fff;border-color: #FD5925;color: #FD5925;}
+.linkbtn-blue:hover::before,.linkbtn-blue:hover::after {width: 0;background-color: #FD5925;}
+
+.linkbtn-orange {background-color: #FD5925;border: 2px solid #FD5925;color: #fff;}
+.linkbtn-orange::before,.linkbtn-orange::after {top: 0;width: 50%;height: 100%;background-color: #FD5925;}
+.linkbtn-orange:hover {background-color: #fff;border-color: #02A6DA;color: #02A6DA;}
+.linkbtn-orange:hover::before,.linkbtn-orange:hover::after {width: 0;background-color: #02A6DA;}
+
+.linkbtn-group{text-align:center;margin:50px 0 10px 0;}
+
+/* ソーシャルボタン */
+.social4i{margin-bottom:30px;}
+
+/* navbar */
+h1#logo {margin: 0;padding: 0;height: 45px;width: 170px;background: url('../../uploads/img/header-logo.png') no-repeat 0 10px;float:left;}
+h1#logo > a {display: block;height: 50px;width: 195px;}
+h1#logo span {position: absolute;overflow: hidden;width: 0;height: 0;}
