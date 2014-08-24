@@ -1,8 +1,8 @@
 	<div class="social">
 
-		<a href=""><i class="fa fa-facebook fa-2x"></i></a>
-		<a href=""><i class="fa fa-twitter fa-2x"></i></a>
-		<a href=""><i class="fa fa-google-plus fa-2x"></i></a>
+		<a href="//www.facebook.com/plugmin.co" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+		<a href="//twitter.com/PLUGMIN" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+		<a href="//plus.google.com/u/0/b/117919312001099525901/117919312001099525901/about" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
 		<a href="<?=site_url()."/feed/"?>" target="_blank"><i class="fa fa-rss fa-2x"></i></a>
 <!-- 		<a href=""><i class="fa fa-pinterest fa-2x"></i></a> -->
 <!-- 		<a href=""><i class="fa fa-instagram fa-2x"></i></a> -->

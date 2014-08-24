@@ -182,5 +182,6 @@
 			</div>
 
 		</div><!--/.nav-collapse -->
-
+	<!--  Google plus リンク-->
+	<a href="https://plus.google.com/117919312001099525901" rel="publisher"></a>
 	</div>

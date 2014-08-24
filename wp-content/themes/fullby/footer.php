@@ -1,8 +1,6 @@
-<div class="col-md-12 footer">
+<div class="col-md-12 footer" style="text-align: center;">
 
-	&copy; Copyright <?php echo date("o");?>   &nbsp; <i class="fa fa-share-alt"></i><i class="fa fa-share-alt arrow"></i>  <span><?php bloginfo('name'); ?></span>
-	&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?php echo site_url()?>/about/">ABOUT</a>
-
+	&copy; Copyright <?php echo date("o");?>   &nbsp;<a href="<?php bloginfo('url')?>"><span><?php bloginfo('name'); ?></span></a>
 </div>
 
 
