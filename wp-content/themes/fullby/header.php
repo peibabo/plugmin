@@ -39,6 +39,18 @@
 </head>
 <body <?php body_class(); ?>>
 
+	<!-- Google Tag Manager -->
+	<?php if(strpos($_SERVER["HTTP_HOST"],'localhost') === false){?>
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P5H6QV"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-P5H6QV');</script>
+	<!-- End Google Tag Manager -->
+	<?php } ?>
+
 	<div class="navbar navbar-inverse navbar-fixed-top">
 
 		<div id="main-nav" class="navbar-header">
